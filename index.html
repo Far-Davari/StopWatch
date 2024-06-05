@@ -10,11 +10,18 @@
   <!-- container -->
   <div class="container">
     <div class="clock">
-      <p>2:30:15</p>
-    </div>
-    <div class="buttons">
-      <button>Stop</button>
-      <button>Reset</button>
+      <p>
+        <span id="minute">00</span>
+        <span class="colon">:</span>
+        <span id="seconds">00</span>
+        <span class="colon">:</span>
+        <span id="tens">00</span>
+      </p>
+      <div class="buttons">
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+        <button id="resume">Resume</button>
+      </div>
     </div>
   </div>
 
