@@ -70,16 +70,16 @@ p {
   color: white;
 }
 
-#stop {
+#start {
   background-color: hsl(0, 82%, 13%);
 
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
 } 
-#stop:hover {
+#start:hover {
   background-color: hsl(0, 100%, 37%);
 }
-#stop:active {
+#start:active {
   background-color: hsl(0, 100%, 27%);
 }
 
